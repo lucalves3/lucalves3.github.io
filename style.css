@@ -37,6 +37,7 @@ body {
 }
 
 #felicidade {
+
     margin: auto;
     padding: 10px;
     border-radius: 10px;
@@ -63,7 +64,7 @@ body {
     border-radius: 1000px;
 }
 
-.button {
+.button{
     color: blue;
     padding: 15px;
     background-color:cyan;
@@ -71,5 +72,46 @@ body {
     text-decoration: none;
     font-weight: 700;
     font-size: 16px;
-
+    
 }
+
+.centro {
+    margin: auto;
+    width: 200px;
+    perspective: 1000px;
+  }
+  .btn {
+    cursor: hand;
+    text-transform: uppercase;
+    background-color: cyan;
+    color: white;
+    font-weight: 900;
+    border: none;
+    padding: 1em 3em;
+    margin: 2em auto;
+    display: block;  
+    transition: background .6s ease-in, transform .5s .25s ease-in-out;
+  }
+  .btn:hover {
+    background-color: blue;
+    transform: scale(1.2);
+  }
+
+  .transicao {
+      cursor: hand;
+      transition: .6s ease-in;     
+  }
+
+  .transicao:hover{
+      transform: scale(1.2);
+  }
+
+  .habilidade {
+      cursor: hand;
+      transform: scale3d(1.2);
+      transition: .6s ease-in;
+  }
+  .habilidade:hover {
+    transform: scale(1.2);
+  }
+  
