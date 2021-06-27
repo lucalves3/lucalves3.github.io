@@ -1,3 +1,7 @@
+.overflow {
+    
+}
+
 h2 {
     color: cyan;
     font-size: 2em;
@@ -18,11 +22,11 @@ h1 {
     color: white;
     font-family: sans-serif;
     line-height: 2em;
+    top: 100px;
 }
 
 body {
     background-color: rgb(2, 2, 53);
-    background-attachment: fixed;
     font-family: monospace;
     font-size: 20px;
     line-height: 20px;
@@ -33,22 +37,19 @@ body {
     font-size: 50px;
     color: cyan;
     font-family: sans-serif;
-    
 }
 
 #felicidade {
-
-    margin: auto;
+    
     padding: 10px;
     border-radius: 10px;
     color: cyan;
+
     
 }
 #box{
     border-radius: 1000px;
     overflow: hidden;
-    margin: 0 auto 20px auto;
-    
 }
 
 .corlistas {
@@ -58,6 +59,7 @@ body {
 }
 
 .border {
+    
     border: 5px solid cyan;
     width: 200px;
     height: 200px;
