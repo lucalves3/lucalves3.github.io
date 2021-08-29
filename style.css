@@ -18,6 +18,17 @@
 
 #saudacao {
     font-size: 1.8em;
+    text-decoration: wavy;
+    animation: go-back 1.5s;
+}
+
+@keyframes go-back {
+    from {
+        transform: translateX(200px);
+    }
+    to {
+        transform: translateX(0);
+    }
 }
 
 .links_header {
