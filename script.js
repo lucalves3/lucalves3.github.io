@@ -12,8 +12,14 @@ setTimeout(() => {
     pegaLocal.innerHTML = "Sou Desenvolvedor Front-End"
 }, time*8);
 setTimeout(() => {
-    pegaLocal.innerHTML = "Do Ceará, para o Mundo!"
+    pegaLocal.innerHTML = "Esse site está sendo refeito"
 }, time*12);
+setTimeout(() => {
+    pegaLocal.innerHTML = "Esse site está sendo refeito"
+}, time*16);
+setTimeout(() => {
+    pegaLocal.innerHTML = "Em React"
+}, time*20);
 }
 
 
