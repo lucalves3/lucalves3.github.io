@@ -1,119 +1,56 @@
-.overflow {
-    
+* {
+    margin: 0;
+    padding: 0;
 }
 
-h2 {
-    color: cyan;
-    font-size: 2em;
-    font-weight: bold;
-    font-weight: 700;
-    margin: center;
+.header_info {
+    display: flex;
+    justify-content: space-between;
+    background-color: #DAE7E9;
+    align-items: center;
 }
 
-h1 {
-    line-height: 65px;
+.div_header_links {
+    display: flex;
+    justify-content: space-between;
+
 }
 
-.imagemlucas {
-    margin: auto;
+#saudacao {
+    font-size: 1.8em;
+    text-decoration: wavy;
+    animation: go-back 1.5s;
 }
 
-.texts {
-    color: white;
-    font-family: sans-serif;
-    line-height: 2em;
-    top: 100px;
+@keyframes go-back {
+    from {
+        transform: translateX(200px);
+    }
+    to {
+        transform: translateX(0);
+    }
 }
 
-body {
-    background-color: rgb(2, 2, 53);
-    font-family: monospace;
-    font-size: 20px;
-    line-height: 20px;
-    text-align: center;
-}
-
-#nome {
-    font-size: 50px;
-    color: cyan;
-    font-family: sans-serif;
-}
-
-#felicidade {
-    
+.links_header {
+    margin: 20px;
+    text-decoration: unset;
+    color: rgb(0, 0, 0);
+    background-color: #c8d9db;
     padding: 10px;
-    border-radius: 10px;
-    color: cyan;
-
-    
-}
-#box{
-    border-radius: 1000px;
-    overflow: hidden;
+    border-radius: 20px;
+    border: solid 1px white;
 }
 
-.corlistas {
-    color: white;
-    line-height: 1.6em;
-    font-family: sans-serif;
+.links_header:hover {
+    transition: 0.8s;
+    background-color: rgb(162, 170, 180);
+    color: rgb(251, 252, 253);
+    border: solid 1px black;
 }
 
-.border {
-    
-    border: 5px solid cyan;
-    width: 200px;
-    height: 200px;
-    border-radius: 1000px;
+#foto_perfil_header {
+    margin: 10px;
+    width: 80px;
+    border-radius: 50px;
 }
 
-.button{
-    color: blue;
-    padding: 15px;
-    background-color:cyan;
-    border-radius: 5px;
-    text-decoration: none;
-    font-weight: 700;
-    font-size: 16px;
-    
-}
-
-.centro {
-    margin: auto;
-    width: 200px;
-    perspective: 1000px;
-  }
-  .btn {
-    cursor: hand;
-    text-transform: uppercase;
-    background-color: cyan;
-    color: white;
-    font-weight: 900;
-    border: none;
-    padding: 1em 3em;
-    margin: 2em auto;
-    display: block;  
-    transition: background .6s ease-in, transform .5s .25s ease-in-out;
-  }
-  .btn:hover {
-    background-color: blue;
-    transform: scale(1.2);
-  }
-
-  .transicao {
-      cursor: hand;
-      transition: .6s ease-in;     
-  }
-
-  .transicao:hover{
-      transform: scale(1.2);
-  }
-
-  .habilidade {
-      cursor: hand;
-      transform: scale3d(1.2);
-      transition: .6s ease-in;
-  }
-  .habilidade:hover {
-    transform: scale(1.2);
-  }
-  
